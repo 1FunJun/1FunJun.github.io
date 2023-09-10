@@ -170,9 +170,11 @@ body {
   gap: 50px;
   min-height: 300px;
   height: 800px;
+  background: url(/images/plant.jpg) center center cover no-repeat fixed;
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
+  
 }
 
 .hero a {
