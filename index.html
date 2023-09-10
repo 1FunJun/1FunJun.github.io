@@ -7,15 +7,18 @@
     <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
     <title>Home - Rank & Reflect</title> 
 </head>
-<body id="body">
+<body>
     <nav>
         <a href="{{ url_for('index') }}">Home</a>
 	   <a href="{{ url_for('search') }}">Search</a>
         <a href="{{ url_for('about') }}">About</a>
     </nav>
     <hr size="1" noshade>
-      <div class="content">
+      <div>
           <h1>Welcome to Rank & Reflect!</h1>
+	      	<div class="panel-image" style="background-image: url('header.jpg');">
+		<div class="panel-image-prop"></div>		
+      		</div>
       </div>
 </body>
 </html>
