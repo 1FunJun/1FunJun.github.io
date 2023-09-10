@@ -50,6 +50,43 @@ Use it to make something cool, have fun, and share what you've learned with othe
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
+Custom
+--------------------------------------------------------------*/
+
+.logo-container {
+    grid-row: 1;
+    grid-column: 1/4;
+    height: 85px;
+    border-bottom: 1px solid transparent;
+    background-color: #161616;
+    border-bottom: 1px solid #E31C3D;
+    background-size: 100%;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-container-left {
+    grid-row: 1;
+    grid-column: 1;
+}
+.logo-container-mid {
+    grid-row: 1;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo-container-right {
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+}
+
+
+/*--------------------------------------------------------------
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
