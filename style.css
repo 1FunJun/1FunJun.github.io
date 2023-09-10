@@ -63,7 +63,10 @@ html {
 
 body {
 	margin: 0;
-	background: url('/header.jpg') center center cover no-repeat fixed;
+}
+
+#body {
+	background: url('header.jpg') center center cover no-repeat fixed;
 }
 
 article,
