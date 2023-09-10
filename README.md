@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+This is my first github page. I will use this space to learn how to setup a website and grow along the way. 
+
+'GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website'
+
+
+
 <!--
 **1FunJun/1FunJun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
