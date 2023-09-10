@@ -1,1 +1,55 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rank & Reflect</title> 
+    <style>
+        form {
+            flex: 20%;
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3;
+            inline-size: 100%;
+	    <!--font-size: 20px;-->
+        }
+        .data {
+	    width: 100%;
+            display: flex;
+	    background-color: #f6f6f6;
+        }
+        nav a {
+            color: #d64161;
+            font-size: 3em;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+	body {
+	    background-color: rgba(255, 255, 128, .3);
+	}
+	#image {
+	    max-width: 60%;
+  	    height: auto;
+	}
+	#time {
+            flex: 20%;
+            padding: 10px;
+            margin: 5px;
+	}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+	   <a href="{{ url_for('search') }}">Search</a>
+        <a href="{{ url_for('about') }}">About</a>
+    </nav>
+    <hr size="30">
+      <div class="content">
+          <h1>Welcome to Rank & Reflect!</h1>
+      </div>
+      <div>
+        <br><img id="image" src={{ url_for('static', filename='___.png') }} alt="northwell" align="middle"><br>
+      </div>
+</body>
+</html>
