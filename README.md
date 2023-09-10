@@ -1,8 +1,11 @@
-### Hi there 👋
+## Hi there 👋
 
-This is my first github page. I will use this space to learn how to setup a website and grow along the way. 
+### This is my first github page!
 
-'GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website'
+I will use this repo to learn how to setup a website and grow along the way.
+
+
+_GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website._
 
 
 
