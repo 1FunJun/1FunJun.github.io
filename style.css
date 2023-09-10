@@ -58,7 +58,8 @@ Custom
     grid-column: 1/4;
     height: 85px;
     border-bottom: 1px solid transparent;
-    background-color: #161616;
+    background-color: #8f7806;
+    opacity: 0.2;
     border-bottom: 1px solid #E31C3D;
     background-size: 100%;
     padding: 0 5%;
@@ -69,6 +70,8 @@ Custom
 .logo-container-left {
     grid-row: 1;
     grid-column: 1;
+    align-self: center;
+    justify-self: center;
 }
 .logo-container-mid {
     grid-row: 1;
