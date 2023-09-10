@@ -56,8 +56,8 @@ Custom
 .logo-container {
     grid-row: 1;
     grid-column: 1/4;
-    height: 50px;
-    background-color: #8f7806;
+    height: 65px;
+    background-color: #8f6606;
     opacity: 0.2;
     border-bottom: 1px solid #8f7806;
     background-size: 100%;
@@ -67,15 +67,15 @@ Custom
 }
 
 .logo-container-left {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1;
     align-self: center;
-    justify-self: center;
+    justify-self: left;
 }
 .logo-container-mid {
     grid-row: 1;
     grid-column: 2;
-    align-self: center;
+    align-self: start;
     justify-self: center;
 }
 
