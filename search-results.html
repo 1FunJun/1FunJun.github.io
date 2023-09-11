@@ -852,7 +852,20 @@
                                 <section id="text-5" class="widget widget_text">
                                     <h2 class="widget-title">Notes</h2>
                                     <div class="textwidget">
+<script>
+        // Get the search query from the URL
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const query = urlParams.get("query");
+
+        // Display the search query in the page
+        const searchResultsContainer = document.getElementById("search-results");
+        searchResultsContainer.innerHTML = `<p>Search results for: <strong>${query}</strong></p>`;
+
+        // You can now fetch and display the actual search results here.
+    </script>
 <div id="search-results">
+<h1>Search Results</h1>
     <!-- Search results will be displayed here -->
 </div>
                                         <p>Thanks for visiting!</p>
