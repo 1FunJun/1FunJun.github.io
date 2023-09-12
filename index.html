@@ -605,13 +605,13 @@
                                         <a href="https://rankandreflect.com/index.html" aria-current="page">Home</a>
                                     </li>
                                     <li id="menu-item-10010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10010">
-                                        <a href="https://rankandreflect.com/about.html">About</a>
+                                        <a href="#about">About</a>
                                     </li>
                                     <li id="menu-item-10011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10011">
-                                        <a href="https://rankandreflect.com/articles.html">Articles</a>
+                                        <a href="#articles">Articles</a>
                                     </li>
                                     <li id="menu-item-10012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10012">
-                                        <a href="https://rankandreflect.com/contact.html">Contact</a>
+                                        <a href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -676,7 +676,7 @@
                                     <div class="panel-image-prop" style="padding-top: 60%"></div>
                                 </div>
                                 <!-- .panel-image -->
-                                <div class="panel-content">
+                                <div class="panel-content" id="about">
                                     <div class="wrap">
                                         <header class="entry-header">
                                             <h2 class="entry-title">About</h2>
@@ -716,10 +716,10 @@
                                     <div class="panel-image-prop" style="padding-top: 60%"></div>
                                 </div>
                                 <!-- .panel-image -->
-                                <div class="panel-content">
+                                <div class="panel-content" id="articles">
                                     <div class="wrap">
                                         <header class="entry-header">
-                                            <h2 class="entry-title">Blog</h2>
+                                            <h2 class="entry-title">Articles</h2>
                                         </header>
                                         <!-- .entry-header -->
                                         <div class="entry-content"></div>
@@ -730,8 +730,8 @@
                                                     <div class="entry-meta">
                                                         <span class="screen-reader-text">Posted on</span>
                                                         <a href="https://rankandreflect.com/?p=19" rel="bookmark">
-                                                            <time class="entry-date published" datetime="2008-10-17T04:33:51+00:00">October 17, 2008</time>
-                                                            <time class="updated" datetime="2020-11-18T07:19:05+00:00">November 18, 2020</time>
+                                                            <time class="entry-date published" datetime="2023-09-10">September 10, 2023</time>
+                                                            <time class="updated" datetime="2023-09-10">September 10, 2023</time>
                                                         </a>
                                                     </div>
                                                     <!-- .entry-meta -->
@@ -741,12 +741,12 @@
                                                 </header>
                                                 <!-- .entry-header -->
                                                 <div class="entry-summary">
-                                                    <p>Boat.</p>
+                                                    <p>Rankings.</p>
                                                 </div>
                                                 <!-- .entry-summary -->
                                             </article>
                                             <!-- #post-19 -->
-                                            <article id="post-36" class="post-36 post type-post status-publish format-standard hentry category-uncategorized">
+                                            <!--<article id="post-36" class="post-36 post type-post status-publish format-standard hentry category-uncategorized">
                                                 <header class="entry-header">
                                                     <div class="entry-meta">
                                                         <span class="screen-reader-text">Posted on</span>
@@ -791,7 +791,7 @@
                                                     <p>More of these posts need tags.</p>
                                                 </div>
                                                 <!-- .entry-summary -->
-                                            </article>
+                                            </article>-->
                                             <!-- #post-14 -->
                                         </div>
                                         <!-- .recent-posts -->
@@ -806,14 +806,15 @@
                                     <div class="panel-image-prop" style="padding-top: 60%"></div>
                                 </div>
                                 <!-- .panel-image -->
+<script src="search.js"></script>
                                 <div class="panel-content">
                                     <div class="wrap">
                                         <header class="entry-header">
-                                            <h2 class="entry-title">Contact</h2>
+                                            <h2 class="entry-title">Search Results</h2>
                                         </header>
                                         <!-- .entry-header -->
                                         <div class="entry-content">
-                                            <p>Feel free to reach out for any suggestions or feedback on what we should review next!</p>
+                                            <p id="search-results"></p>
                                         </div>
                                         <!-- .entry-content -->
                                     </div>
@@ -831,14 +832,14 @@
                 <footer id="colophon" class="site-footer">
                     <div class="wrap">
                         <aside class="widget-area" aria-label="Footer">
-                            <div class="widget-column footer-widget-1">
+                            <div class="widget-column footer-widget-1" id="contact">
                                 <section id="text-4" class="widget widget_text">
                                     <h2 class="widget-title">Find Us</h2>
                                     <div class="textwidget">
                                         <p>
-                                            <strong>Address</strong>
+                                            <strong>Creator</strong>
                                             <br/>
-                                            Online<br/>New York, NY 10001
+                                            Jun<br/>New York, NY 10001
                                         </p>
                                         <p>
                                             <strong>Hours</strong>
@@ -852,8 +853,7 @@
                                 <section id="text-5" class="widget widget_text">
                                     <h2 class="widget-title">Notes</h2>
                                     <div class="textwidget">
-                                        <p>Thanks for visiting!</p>
-					<img src="/images/logo.png" alt="Rank & Reflect" class="custom-logo-link">
+                                        <p>Please reach out for any suggestions/feedback on what we should review next. Thanks for visiting!</p>
                                     </div>
                                 </section>
                                 <section id="search-6" class="widget widget_search">
@@ -871,34 +871,14 @@
                                         </button>
                                     </form>
                                 </section>
-<script src="search.js"></script>
-<div id="search-results">
-    <!-- Search results will be displayed here -->
-</div>
                             </div>
                         </aside>
                         <!-- .widget-area -->
                         <nav class="social-navigation" aria-label="Footer Social Links Menu">
                             <div class="menu-social-container">
                                 <ul id="menu-social" class="social-links-menu">
-                                    <li id="menu-item-10013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10013">
-                                        <a href="https://www.yelp.com">
-                                            <span class="screen-reader-text">Yelp</span>
-                                            <svg class="icon icon-yelp" aria-hidden="true" role="img">
-                                                <use href="#icon-yelp" xlink:href="#icon-yelp"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li id="menu-item-10014" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10014">
-                                        <a href="https://www.facebook.com/wordpress">
-                                            <span class="screen-reader-text">Facebook</span>
-                                            <svg class="icon icon-facebook" aria-hidden="true" role="img">
-                                                <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
                                     <li id="menu-item-10015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10015">
-                                        <a href="https://twitter.com/wordpress">
+                                        <a href="https://twitter.com/">
                                             <span class="screen-reader-text">Twitter</span>
                                             <svg class="icon icon-twitter" aria-hidden="true" role="img">
                                                 <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
@@ -906,7 +886,7 @@
                                         </a>
                                     </li>
                                     <li id="menu-item-10016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10016">
-                                        <a href="https://www.instagram.com/explore/tags/wordcamp/">
+                                        <a href="https://www.instagram.com/explore">
                                             <span class="screen-reader-text">Instagram</span>
                                             <svg class="icon icon-instagram" aria-hidden="true" role="img">
                                                 <use href="#icon-instagram" xlink:href="#icon-instagram"></use>
@@ -914,7 +894,7 @@
                                         </a>
                                     </li>
                                     <li id="menu-item-10017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10017">
-                                        <a href="mailto:wordpress@example.com">
+                                        <a href="mailto:example@example.com">
                                             <span class="screen-reader-text">Email</span>
                                             <svg class="icon icon-envelope-o" aria-hidden="true" role="img">
                                                 <use href="#icon-envelope-o" xlink:href="#icon-envelope-o"></use>
@@ -926,7 +906,7 @@
                         </nav>
                         <!-- .social-navigation -->
                         <div class="site-info">
-                            <a href="https://rankandreflect.com/" class="imprint">Rank & Reflect</a>
+                            <a href="https://rankandreflect.com/" class="imprint"><img src="/images/logo.png" alt="Rank & Reflect" class="custom-logo-link"></a>
                         </div>
                         <!-- .site-info -->
                     </div>

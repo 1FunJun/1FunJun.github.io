@@ -1638,7 +1638,7 @@ body.has-header-video .site-description {
 /* Style the <img> element within the custom-logo-link class */
 .custom-logo-link img {
 	display: inline-block;
-	max-height: 60px;
+	max-height: 40px;
 	width: auto;
 }
 
