@@ -1638,13 +1638,12 @@ body.has-header-video .site-description {
 /* Style the <img> element within the custom-logo-link class */
 .custom-logo-link img {
 	display: inline-block;
-	max-height: 180px;
+	max-height: 150px;
 	width: auto;
 }
 
 /* Specifically targeting my brand logo. I believe @media is preventing the above css code without this new class */
-.custom-logo-link .brand-logo img {
-	display: inline-block;
+.brand-logo img {
 	max-height: 120px;
 	width: auto;
 }
